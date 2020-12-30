@@ -19,6 +19,7 @@ The independent variable “Goal” was segmented into 12 categories, “Less th
 
 ### Challenges and Difficulties Encountered
 The time format for “Launch Date” would pose as a challenge if it was used as metrics to operationalize time. To make sure that Excel is able to process the measurement of time, it was necessary to convert it from UNIX to a more legible format for analysis. I also found that segmenting goals into categorical brackets to be very useful to measure its success rate to help make decisions on setting goals for Louise’s Kickstarter campaign. Without the incremental indications, it would be hard to understand the feasibility of her fundraising metrics.
+![Theater_Outcomes_vs_Launch.png](Theater_Outcomes_vs_Launch.png)
 
 ## Results
 ### Outcome based on Launch Date
