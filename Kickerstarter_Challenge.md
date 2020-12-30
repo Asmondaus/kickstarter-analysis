@@ -10,8 +10,8 @@ The purpose of the analyses was to find trends between the outcome of the pledge
 The operational variable in the analyses were the count of outcomes, each value was counted by its frequency resulted in “successful”, “Failed” and “Canceled”. Successful indicates that the pledge has met or surpassed the goal amount, failed indicates that the pledge amount did not meet the goal amount and canceled indicates that the campaign was terminated in the process of fundraising.
 
 ### Analysis of Outcomes Based on Launch Date
-The independent variable “Launch Date” was converted from Unix timestamp into a day-month-year format. The dates were further filtered by months of a year for analysis. A line chart was generated to show “Outcomes by Launch Date” below (attached photo 1).
-
+The independent variable “Launch Date” was converted from Unix timestamp into a day-month-year format. The dates were further filtered by months of a year for analysis. A line chart was generated to show “Outcomes by Launch Date” below.
+![Theater_Outcomes_vs_Launch.png](Theater_Outcomes_vs_Launch.png)
 
 ### Analysis of Outcomes Based on Goals
 The independent variable “Goal” was segmented into 12 categories, “Less than 100,” “1000 to 4999”, “5000 to 9999”, “1000 to 14999,” “15000 to 19999,” “20000 to 249999,” “25000 to 29999,” “30000 to 349999,” “35000 to 39999,” “40000 to 44999,” “45000 to 49999” and “Greater than 50000.” A correlation analysis was performed to show the relationship between the goal amount and its success rate. The outcome variable was converted into percentages of success, failure and cancelled for comprehensive analysis. A line chart was generated to show “Outcomes Based on Goal” below.
@@ -19,7 +19,6 @@ The independent variable “Goal” was segmented into 12 categories, “Less th
 
 ### Challenges and Difficulties Encountered
 The time format for “Launch Date” would pose as a challenge if it was used as metrics to operationalize time. To make sure that Excel is able to process the measurement of time, it was necessary to convert it from UNIX to a more legible format for analysis. I also found that segmenting goals into categorical brackets to be very useful to measure its success rate to help make decisions on setting goals for Louise’s Kickstarter campaign. Without the incremental indications, it would be hard to understand the feasibility of her fundraising metrics.
-![Theater_Outcomes_vs_Launch.png](Theater_Outcomes_vs_Launch.png)
 
 ## Results
 ### Outcome based on Launch Date
